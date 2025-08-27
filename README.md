@@ -51,9 +51,15 @@ Tôi yêu tiếng Việt
 ---
 
 ## 📊 Kết quả huấn luyện  
-📌 Biểu đồ loss/accuracy được tạo bằng `visualize.py`. 
-<img width="562" height="387" alt="image" src="https://github.com/user-attachments/assets/4b46a303-25e9-4a0a-9f84-36988e003f58" />
-<img width="514" height="366" alt="image" src="https://github.com/user-attachments/assets/8d3ecad6-da4a-4023-9fd5-a411ac81579b" />
+### 🔹 Training & Validation Loss  
+<p align="center">
+  <img width="562" height="387" alt="Training Loss" src="https://github.com/user-attachments/assets/4b46a303-25e9-4a0a-9f84-36988e003f58" />
+</p>
+
+### 🔹 Training & Validation Accuracy  
+<p align="center">
+  <img width="514" height="366" alt="Validation Accuracy" src="https://github.com/user-attachments/assets/8d3ecad6-da4a-4023-9fd5-a411ac81579b" />
+</p>
 
 
 
@@ -68,19 +74,6 @@ Tôi yêu tiếng Việt
 | **BLEU-4** | 75.61   |
 | **BLEU-1** | 86.19   |
 | **BLEU-2** | 82.38   |
-
----
-
-## 📁 Cấu trúc thư mục  
-```
-viet-diacritic-restoration/
-├─ data/               # dữ liệu train/valid/test
-├─ src/                # code model, train, infer
-├─ checkpoints/        # lưu model đã huấn luyện
-├─ result/             # log, output
-├─ visualize/          # script vẽ loss/accuracy
-└─ README.md
-```
 
 ---
 
