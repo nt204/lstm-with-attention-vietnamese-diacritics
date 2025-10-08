@@ -14,7 +14,7 @@ Dự án xây dựng mô hình **Seq2Seq với LSTM Encoder–Decoder kết hợ
 ---
 
 ## 🏗 Kiến trúc mô hình  
-- **Encoder**: BiLSTM (2 chiều)  
+- **Encoder**: LSTM (2 chiều)  
 - **Decoder**: LSTM  
 - **Attention**: Luong Attention  
 - **Loss**: CrossEntropy  
